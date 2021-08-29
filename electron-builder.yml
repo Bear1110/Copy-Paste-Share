@@ -1,0 +1,9 @@
+productName: "Copy-Paste-Share"
+appId: "microsoft.azure.batch-explorer"
+
+# asar: false
+
+win:
+  icon: "src/app/assets/images/icon.ico"
+  target:
+    - "portable"
