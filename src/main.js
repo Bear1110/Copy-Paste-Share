@@ -6,8 +6,8 @@ const { startMonitorClipboard } = require('./clipboard')
 function createWindow () {
     const win = new BrowserWindow({
       autoHideMenuBar: true,
-      width: 800,
-      height: 600,
+      width: 650,
+      height: 375,
       webPreferences: {
         preload: path.join(__dirname, 'preload.js'),
         nodeIntegration: true,
